@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        padding: 1em;
+        width: 300px;
+        max-width: 100%;
+        border: none;
+        border-bottom: 1px solid #eee;
+        color: #777;
+        font-size: 20px;
+        outline: none;
+      }
+      input:focus {
+        border-bottom: 1px solid #777;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="get" action="https://www.google.se/search">
+      <input autofocus name="q" />
+    </form>
+  </body>
+</html>
